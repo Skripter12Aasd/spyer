@@ -1,4 +1,4 @@
-local HttpSpy = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skripter12Aasd/spyer/main/httplog"))({
+local HttpSpy = loadstring(game:HttpGet("https://raw.githubusercontent.com/NotDSF/HttpSpy/main/init.lua"))({
     AutoDecode = true, -- Automatically decodes JSON
     Highlighting = true, -- Highlights the output
     SaveLogs = true, -- Save logs to a text file
