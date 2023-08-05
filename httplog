@@ -220,7 +220,5 @@ function API:WhitelistUrl(url)
     blocked[url] = false;
 end;
 
-print(logname, string.format("Http Logs from %s\n\n", os.date("%d/%m/%y"))
-
 return API;
  
