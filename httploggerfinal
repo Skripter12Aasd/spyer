@@ -8,6 +8,8 @@ local HttpSpy = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skrip
     BlockedURLs = {} -- Blocked urls
 });
 
+print("<--------- z_qa Spy -------->")
+
 HttpSpy.OnRequest:Connect(function(req) 
     warn("-------->", req.Url, "<--------");    
 end);
